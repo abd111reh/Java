@@ -7,6 +7,7 @@ public class BillGenerate {
 		
 		Scanner scanner=new Scanner(System.in);
 		Invoice invoice=new Invoice();
+		System.out.println("Welcome to Our Shopping Center");
 		System.out.println("Enter The Customer Name");
 		invoice.customerName(scanner.nextLine());
 		System.out.println("Enter The Customer Address");
